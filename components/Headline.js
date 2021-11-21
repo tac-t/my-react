@@ -5,7 +5,6 @@ export function Headline(props) {
     <div>
         <h1 className={styles.title}>
           {props.page} Page
-          <a href="http://localhost:3000/about">about page</a>
         </h1>
 
         <p className={styles.description}>
